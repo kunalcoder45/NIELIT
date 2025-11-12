@@ -76,14 +76,20 @@
 # else:
 #     print(f"{char} is not a vowel its a consonant.")
 
-
 # Q8
+year = int(input("Enter a year: "))
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print(f"{year} is a leap year.")
+else:
+    print(f"{year} is not a leap year.")
 
-unit = int(input("Enter the number of electricity units consumed: "))
-if unit <= 100:
-    bill = unit * 5
-elif unit > 100 and unit < 200:
-    bill = unit * 7
-elif unit >= 200:
-    bill = unit * 10
-print(f"Your electricity bill is: {bill} units.")
+# Q9
+
+# unit = int(input("Enter the number of electricity units consumed: "))
+# if unit <= 100:
+#     bill = unit * 5
+# elif unit > 100 and unit < 200:
+#     bill = unit * 7
+# elif unit >= 200:
+#     bill = unit * 10
+# print(f"Your electricity bill is: {bill} units.")
