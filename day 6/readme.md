@@ -1,0 +1,1 @@
+bell curves , outliers, SD ( Standard deviation ) , Variance
