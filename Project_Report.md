@@ -102,5 +102,3 @@ If you want, I can now (choose one):
 - create `requirements.txt` and update `Readme.md`,
 - produce a detailed per-file summary (open and summarize each `main.py`), or
 - clean `day 11/Dataset.csv` and create a small cleaning script.
-
-Tell me which of these you'd like next, or ask for a different follow-up.
